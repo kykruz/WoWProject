@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Kkruz\\WoWProject\\wwwroot\\images\\lich_king.jpg",
+      "PackagePath": "staticwebassets\\images\\lich_king.jpg"
+    },
+    {
       "Id": "C:\\Users\\Kkruz\\WoWProject\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

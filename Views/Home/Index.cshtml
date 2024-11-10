@@ -1,3 +1,104 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WoW Central</title>
+    <link rel="stylesheet" href="~/Content/Site.css">
+    <style>
+        /* Background Image */
+        body {
+            background-image: url('~/images/wow_background.jpg'); /* Use a URL to an image you have rights to */
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        
+        /* Header Styling */
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.7);
+        }
+        
+        .site-name h1 {
+            font-size: 2.5rem;
+            color: #ffcc00;
+        }
+
+        /* Navbar Styling */
+        .navbar ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        .navbar ul li {
+            margin: 0 15px;
+        }
+
+        .navbar ul li a {
+            color: #ffcc00;
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: color 0.3s;
+        }
+
+        .navbar ul li a:hover {
+            color: #ff6600;
+        }
+
+        /* Main Content */
+        main {
+            padding: 50px;
+            background: rgba(0, 0, 0, 0.8);
+            margin: 20px auto;
+            max-width: 800px;
+            border-radius: 8px;
+        }
+
+        /* World of Warcraft Image */
+        .wow-image {
+            margin: 20px 0;
+        }
+
+        .wow-image img {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <!-- Site Name -->
+            <div class="site-name">
+                <h1>WoW Central</h1>
+            </div>
+            <!-- Navigation Toolbar -->
+            <nav class="navbar">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/blogs/featured">Featured Blogs</a></li>
+                    <li><a href="/blogs/myblogs">My Blogs</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h2>Welcome to WoW Central</h2>
+        <p>Explore our latest featured blogs and share your own stories!</p>
+        <!-- Image of the Lich King or other WoW characters -->
+        <div class="wow-image">
+            <img src="~/images/lich_king.jpg" alt="The Lich King - World of Warcraft"> <!-- Make sure this image is in your project folder -->
+        </div>
+    </main>
+</body>
+</html>
