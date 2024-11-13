@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KRABIsIm/ryxoqf16JudoKOQhVDCNjSU2N+NJHxDC80=",
+  "Hash": "7OOYD/ZhO3kkytA1EgtrWdACnFxi9hi1DIY8VYKaerc=",
   "Source": "WoWProject",
   "BasePath": "_content/WoWProject",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Kkruz\\WoWProject\\wwwroot\\images\\background.jpg",
+      "SourceId": "WoWProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kkruz\\WoWProject\\wwwroot\\",
+      "BasePath": "_content/WoWProject",
+      "RelativePath": "images/background.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\background.jpg"
     },
     {
       "Identity": "C:\\Users\\Kkruz\\WoWProject\\wwwroot\\images\\lich_king.jpg",
