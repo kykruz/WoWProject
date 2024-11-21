@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WoWProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+58d978c960113db6d2989fda9930c56836952947")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca606d3289d03f6b9385705d661499ee2b1da49a")]
 [assembly: System.Reflection.AssemblyProductAttribute("WoWProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WoWProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
