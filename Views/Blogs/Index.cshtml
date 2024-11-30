@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creator Blog Post - WoW Central</title>
+    <link rel="stylesheet" href="~/Content/Site.css">
+    <style>
+        body {
+            background-image: url('/images/background.jpg'); 
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.7);
+        }
+
+        .site-name h1 {
+            font-size: 2.5rem;
+            color: #ffcc00;
+        }
+
+        .navbar ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        .navbar ul li {
+            margin: 0 15px;
+        }
+
+        .navbar ul li a {
+            color: #ffcc00;
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: color 0.3s;
+        }
+
+        .navbar ul li a:hover {
+            color: #ff6600;
+        }
+
+        main {
+            padding: 50px;
+            background: rgba(0, 0, 0, 0.8);
+            margin: 20px auto;
+            max-width: 800px;
+            border-radius: 8px;
+        }
+
+        .blog-container {
+            text-align: left;
+        }
+
+        .blog-title {
+            font-size: 2rem;
+            color: #ffcc00;
+            margin-bottom: 10px;
+        }
+
+        .blog-author {
+            font-size: 1.2rem;
+            color: #ffcc00;
+            margin-bottom: 20px;
+        }
+
+        .blog-content {
+            font-size: 1rem;
+            line-height: 1.8;
+        }
+
+        .blog-image img {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        .comment-section {
+            margin-top: 30px;
+            text-align: left;
+        }
+
+        .comment-section h3 {
+            color: #ffcc00;
+        }
+
+        .comment-form textarea {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            resize: vertical;
+        }
+
+        .comment-form button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #ff6600;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .comment-form button:hover {
+            background-color: #ffcc00;
+        }
+
+        .comment {
+            background: rgba(255, 255, 255, 0.1);
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .comment p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="site-name">
+                <h1>WoW Central</h1>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/blogs/featured">Featured Blogs</a></li>
+                    <li><a href="/blogs/myblogs">My Blogs</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="blog-container">
+            <h2 class="blog-title">The Secrets of Azeroth</h2>
+            <p class="blog-author">by <strong>ThrallFan99</strong></p>
+            <div class="blog-image">
+                <img src="/images/azeroth_secrets.jpg" alt="Secrets of Azeroth">
+            </div>
+            <div class="blog-content">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin scelerisque, mauris at viverra aliquet, risus purus tempor nisl, a interdum nunc sapien in nunc. Ut condimentum, massa non pretium facilisis, augue risus sagittis sem, ac viverra nunc felis id urna.
+                </p>
+                <p>
+                    Suspendisse potenti. Quisque nec turpis ligula. Integer eu elit magna. Nam euismod, lacus a faucibus faucibus, sapien eros posuere orci, vel bibendum libero nisi ac augue.
+                </p>
+            </div>
+        </div>
+
+        <div class="comment-section">
+            <h3>Comments</h3>
+            <div class="comment">
+                <p><strong>PlayerOne:</strong> Amazing blog! I never knew about these secrets!</p>
+            </div>
+            <div class="comment">
+                <p><strong>Raider42:</strong> Great insights, keep up the good work!</p>
+            </div>
+            <form class="comment-form">
+                <textarea rows="4" placeholder="Write a comment..."></textarea>
+                <button type="submit">Post Comment</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
